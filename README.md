@@ -12,6 +12,7 @@ Um jogo simples e divertido desenvolvido com tecnologias web puras (HTML, CSS e 
 
 ![Gameplay GIF](https://github.com/jeffthedeveloper/APP-Game-Mata-Mosquitov2/blob/Main/imagens/gameplay_final.gif?raw=true)
 
+![Gameplay Mobile GIF](https://github.com/jeffthedeveloper/APP-Game-Mata-Mosquitov2/blob/Main/imagens/mobile-layout.gif?raw=true)
 ---
 
 ### 🎮 Jogue Agora!
