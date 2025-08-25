@@ -11,15 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # atualizado para v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4 # atualizado para v4
         with:
-          node-version: '18'
+          node-version: '20' # Usando a versão LTS mais recente do Node.js
 
       - name: Install ESLint
         run: npm install eslint
 
       - name: Run ESLint
-        run: npx eslint **/*.js
+        run: npx eslint **/*.js # Usando a versão LTS mais recente do Node.js
