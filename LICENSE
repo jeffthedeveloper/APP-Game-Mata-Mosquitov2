@@ -1,18 +1,34 @@
-# Project: Mata Mosquito Game v2
+# Project: Mata Mosquito Game v2.0
 # Developer: Jefferson Firmino Mendes
 
-## Histórico do Projeto e Agradecimentos
+## Histórico Evolutivo do Projeto e Agradecimentos
 
-Este projeto foi inicialmente desenvolvido como parte do curso "Desenvolvimento Web Completo - 20 cursos + 20 projetos", um currículo abrangente e altamente conceituado ministrado na plataforma Udemy. A base do jogo foi construída seguindo as excelentes aulas do módulo de JavaScript.
+Este projeto representa uma evolução significativa sobre a base conceitual desenvolvida no curso "Desenvolvimento Web Completo - 20 cursos + 20 projetos" da Udemy, ministrado pelos instrutores Jamilton Damasceno e Jorge Sant Ana.
 
-Agradecimentos especiais aos instrutores Jamilton Damasceno e Jorge Sant Ana, cujos conhecimentos e didática foram fundamentais para a criação da versão original do projeto.
+A trajetória do código demonstra a aplicação progressiva de conceitos de lógica de programação, manipulação do DOM e estruturação de software.
 
-Esta versão (v2) representa uma evolução significativa sobre o conceito original, com o objetivo de alcançar um padrão de qualidade superior para portfólios profissionais. As melhorias implementadas pelo desenvolvedor Jefferson Firmino Mendes incluem:
+---
 
-* **Responsividade Completa:** Adaptabilidade aprimorada para uma experiência de usuário consistente em dispositivos móveis e tablets.
-* **Sistema de Áudio:** Implementação de efeitos sonoros para o zumbido do mosquito, o impacto da raquete e a eliminação do alvo, funcionalidades inexistentes na versão base.
-* **Lógica de Posicionamento:** Melhorias no algoritmo de disposição dos mosquitos na tela, tornando o jogo mais dinâmico e desafiador.
-* **Otimizações Gerais:** Refinamentos de performance e usabilidade para garantir uma jogabilidade mais fluida e intuitiva.
+### **Linha do Tempo de Desenvolvimento**
+
+#### **Versão 0.5 (Protótipo Inicial "Oldschool")**
+* **Foco:** Prova de conceito da mecânica de posicionamento.
+* **Lógica:** Um único mosquito de tamanho fixo (`className = 'mosquito1'`) era gerado em posições aleatórias na tela. Não havia um loop de jogo, sistema de vidas ou cronômetro.
+
+#### **Versão 1.0 (Versão Legado do Curso - Repositório Arquivado)**
+* **Foco:** Implementação das regras e do loop de jogo principal.
+* **Evolução de Paradigma:**
+    * **Inclusão de Aleatoriedade:** Foram introduzidas as funções `tamanhoAleatorio()` e `ladoAleatorio()`, substituindo o tamanho fixo por mosquitos de dimensões e orientações variadas, aumentando a complexidade visual.
+    * **Criação do Game Loop:** Foi implementada a lógica de `setInterval` para o surgimento contínuo de mosquitos. Crucialmente, foi adicionado o código que remove o mosquito anterior a cada novo ciclo, garantindo que apenas um alvo exista por vez.
+    * **Sistema de Vidas e Cronômetro:** A mecânica de vidas e o cronômetro com condição de vitória (`tempo < 0`) foram implementados, transformando o protótipo em um jogo funcional.
+* **Repositório de Origem:** [jeffthedeveloper/App-Game-Mata-Mosquito](https://github.com/jeffthedeveloper/App-Game-Mata-Mosquito)
+
+#### **Versão 2.0 (Edição Padrão-Ouro)**
+* **Foco:** Refatoração, profissionalização e experiência do usuário.
+* **Evolução de Paradigma:**
+    * **Estrutura de Aplicação:** O jogo foi desacoplado em um menu inicial (`index.html`) e uma tela de jogo (`app.html`), permitindo a introdução de um **sistema de dificuldade** que ajusta dinamicamente a lógica do `setInterval`.
+    * **Experiência Multissensorial:** Adição de um sistema de **áudio completo** com efeitos sonoros, elevando a imersão.
+    * **Design Responsivo e Moderno:** A interface foi reescrita para garantir total compatibilidade com dispositivos móveis, um requisito essencial para aplicações web atuais.
 
 -------------------------------------------------------------------------------
 
