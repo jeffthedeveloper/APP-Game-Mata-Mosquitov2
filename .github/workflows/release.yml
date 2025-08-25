@@ -1,0 +1,40 @@
+name: Create Release and Package
+
+on:
+  push:
+    tags:
+      - 'v*' # Executa o workflow quando uma tag começando com 'v' é enviada
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Package project files
+        run: zip -r mata-mosquito-${{ github.ref_name }}.zip . -x ".git/*" ".github/*"
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref_name }}
+          body: |
+            Nova release do jogo Mata Mosquito.
+            O pacote com os arquivos do jogo está disponível para download abaixo.
+          draft: true # Cria como um rascunho para você revisar antes de publicar
+          prerelease: false
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./mata-mosquito-${{ github.ref_name }}.zip
+          asset_name: mata-mosquito-${{ github.ref_name }}.zip
+          asset_content_type: application/zip
