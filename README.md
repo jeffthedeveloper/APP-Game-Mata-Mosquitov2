@@ -71,3 +71,17 @@ Se desejar executar o projeto localmente, não há necessidade de um servidor we
 |-- vitoria.html        # Tela de vitória
 |-- README.md           # Esta documentação
 ```
+
+
+
+### 📄 Licença
+
+Este projeto é distribuído sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/jeffthedeveloper/APP-Game-Mata-Mosquitov2/blob/Main/LICENSE) para mais detalhes.
+
+---
+
+### 🙏 Agradecimentos e Créditos
+
+* **Desenvolvedor:** Jefferson Firmino Mendes
+* **Curso Base:** O conceito inicial do projeto foi desenvolvido durante o curso "Desenvolvimento Web Completo - 20 cursos + 20 projetos".
+* **Instrutores:** Agradecimentos a Jamilton Damasceno e Jorge Sant Ana pela base de conhecimento fornecida.
