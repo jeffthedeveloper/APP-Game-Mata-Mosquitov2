@@ -1,0 +1,39 @@
+# Project: Mata Mosquito Game v2
+# Developer: Jefferson Firmino Mendes
+
+## Histórico do Projeto e Agradecimentos
+
+Este projeto foi inicialmente desenvolvido como parte do curso "Desenvolvimento Web Completo - 20 cursos + 20 projetos", um currículo abrangente e altamente conceituado ministrado na plataforma Udemy. A base do jogo foi construída seguindo as excelentes aulas do módulo de JavaScript.
+
+Agradecimentos especiais aos instrutores Jamilton Damasceno e Jorge Sant Ana, cujos conhecimentos e didática foram fundamentais para a criação da versão original do projeto.
+
+Esta versão (v2) representa uma evolução significativa sobre o conceito original, com o objetivo de alcançar um padrão de qualidade superior para portfólios profissionais. As melhorias implementadas pelo desenvolvedor Jefferson Firmino Mendes incluem:
+
+* **Responsividade Completa:** Adaptabilidade aprimorada para uma experiência de usuário consistente em dispositivos móveis e tablets.
+* **Sistema de Áudio:** Implementação de efeitos sonoros para o zumbido do mosquito, o impacto da raquete e a eliminação do alvo, funcionalidades inexistentes na versão base.
+* **Lógica de Posicionamento:** Melhorias no algoritmo de disposição dos mosquitos na tela, tornando o jogo mais dinâmico e desafiador.
+* **Otimizações Gerais:** Refinamentos de performance e usabilidade para garantir uma jogabilidade mais fluida e intuitiva.
+
+-------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2025 Jefferson Firmino Mendes
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
